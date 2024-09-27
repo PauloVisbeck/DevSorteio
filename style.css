@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+}
+
+body {
+    background: #000000;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;     /* Centraliza o header e a main verticalmente */
+    padding: 35px;         
+}
+
+img {
+    /* width: 583px;
+    height: 374px; */
+    width: 400px;    
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+input {
+    width: 250px;
+    height: 54px;
+    padding-left: 16px;
+    margin: 20px 15px 30px 10px; /*(topo, direita, embaixo, esquerda) */
+    background: #404040;
+    font-size: 20px;
+    font-weight: 500;
+    color: #C5C5C5;
+    border: 1px solid #C5C5C5;
+    border-radius: 14px;
+}
+
+button {
+    width: 250px;
+    height: 54px;
+    background: #AEC346;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF; 
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+main {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;     /* Centraliza os elementos na vertical */
+    margin-top: 45px;   
+}
+
+p {
+    margin-top: 20px;
+    font-size: 30;
+    font-weight: 700;
+    color: #FFFFFF;
+}

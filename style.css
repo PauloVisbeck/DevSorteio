@@ -53,6 +53,10 @@ button:hover {
     opacity: 0.8;
 }
 
+button:active {     /* Efeito de clique */
+    opacity: 0.6;
+}
+
 main {
     display: flex;
     flex-direction: column;    
